@@ -1,9 +1,9 @@
 <?php $this->load->view('_header', array('title'=>'欢迎使用 CIGenerator')); ?>
 <div id="container">
-	<h1>欢迎使用 CIGenerator - 一个基于CodeIgniter 3.0的网站后台系统</h1>
+	<h1>欢迎使用 CIGenerator - 一个基于CodeIgniter 2.2.5的网站后台系统</h1>
 
 	<div id="body">
-            <p>一个基于CodeIgniter 3.0开发的网站后台系统. &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo B_URL; ?>" target="_blank">进入后台</a> (用户名和密码均是admin)</p>
+            <p>一个基于CodeIgniter 2.2.5开发的网站后台系统. &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo B_URL; ?>" target="_blank">进入后台</a> (用户名和密码均是admin)</p>
             <p><b>特色功能:</b> 能够根据数据表生成对应的model, controller, view的文件, 节省开发的时间.</p>
             <p><b>系统功能:</b> 系统已自带一些基础功能, 管理员, 权限, 文章分类, 文章, 文章附件, 代码生成, 系统设置等内容管理的功能</p>
             <p>&nbsp;</p>
