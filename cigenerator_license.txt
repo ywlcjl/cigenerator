@@ -1,6 +1,0 @@
-If (remove "/plugins")
-    License : The MIT License (MIT) 
-Elseif (remove "/plugins/cool-php-captcha") 
-    License : GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007 (LGPL)
-Else
-    License : GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 (GPL)
