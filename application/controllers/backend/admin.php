@@ -40,7 +40,7 @@ class Admin extends CI_Controller {
         $data['result'] = $this->admin_model->getResult($param, $pagePer, $startRow, 'id DESC');
 
         //生成分页链接
-        $total = $this->admin_permission_model->count($param);
+        $total = $this->admin_model->count($param);
         $this->backend_lib->createPage($pageUrl, $pageUri, $pagePer, $total, $suffix);  //创建分页链接
 
         $this->load->view('backend/admin/index', $data);
